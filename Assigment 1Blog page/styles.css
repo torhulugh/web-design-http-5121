@@ -190,6 +190,7 @@ article img {
     margin-bottom: 30px;
     gap: 10px;
 }
+
 .comments-avarter {
     display: flex;
     width: 70px;
@@ -224,6 +225,7 @@ article img {
     gap: 20px;
     margin: 0;
 }
+
 #comment-tex-field  {
     background-color: #fcfcfc;
     border-radius: 7px;
@@ -232,6 +234,7 @@ article img {
     height: 200px;
     margin: 0;
 }
+
 #user-details {
     display: flex;
     width: 100%;
@@ -267,10 +270,12 @@ article img {
     opacity: 0.5;
     padding-bottom: 100px;
 }
+
 input::placeholder {
     padding-left: 10px;
     opacity: 0.5;
 }
+
 #sumbmit-btn {
    
     width: 101%;
@@ -282,7 +287,7 @@ input::placeholder {
     
 }
 aside{
-    width: 100%;
+    width: 300px;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -290,20 +295,36 @@ aside{
     align-items: center;
     align-content: center;
     justify-content: flex-end;
-    transform: translateX(0);
+    margin-left: 120px;
 }       
+
 #category-list {
-    width: 100%;
+    width: 50%;
     height: 100%;
     display: flex;
     flex-direction: column;
     position: relative;
     align-items: center;
     align-content: center;
-    justify-content: center;
+    justify-content: flex-end;
+    
+    
+
+}
+
+#category-list h4 {
+    color: #4B4747;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    a
+    
+    
 
 }
 aside h2 {
+    color: # ;
     width: 100%;
     height: 100%;
     display: flex;
@@ -313,24 +334,29 @@ aside h2 {
     justify-content: center;
 
 }
-#divider-line {
+.divider-line {
+    background-color: #ccc;
     width: 100%;
-    height: 100%;
+    height: 1px;
     display: flex;
     position: relative;
     align-items: center;
     align-content: center;
     justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
 
 }
-aside h4 {
-    width: 100%;
+.related-post h4 {
+    color: #4B4747;
+    width: 200px;
     height: 100%;
     display: flex;
     position: relative;
     align-items: center;
     align-content: center;
-    justify-content: center;
+    justify-content: centerh;
+    margin: 0;
 
 }
 .related-post {
@@ -339,5 +365,10 @@ aside h4 {
 
 }
 aside img{
-    width: 80px;
+    width: 60px;
+    margin-right: 20px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    align-self: center;
 }
