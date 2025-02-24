@@ -25,6 +25,7 @@
     <div id="underHeader"></div>
     <main>
         <section id="rightSideBar">
+            <div id="rightSideBar-container">
             <div id="author-pic_name ">
                 <img id="authorProfilePicture" src="IMG/PP.svg" alt="">  
                 <p>Author <br>Super King</p>
@@ -65,7 +66,7 @@
                 <img src="IMG/thumbsdown.svg" alt="icon for give the article thubs down">
                 <p>Dislike</p>
             </div>
-        
+        </div> 
     </section>
 
         <section id="middleSection">
@@ -87,7 +88,8 @@
                 Color combination ideas, they play with hard and soft colors and, have them all come out, beautiful and harmonious.
                 And most importantly I find it entertaining <br>
                 <br>
-                 <b>My Favorite Anime</b> <br>
+                 <b>My Favorite Anime One Piece</b> <br>
+                 <img src="IMG/op1.jpg" alt="">
                 My favorite anime current is One Piece 
                 At first, I was reluctant to watch it, it looked boring 
                 But I gave it a chance and we'll all, I can say is I am a straw hat pirate now😅
@@ -95,14 +97,15 @@
                 <br>
                 <br>
                <b>Personal recommendations</b>  <br>
-                Naruto
-                Vinland
-                Hunter X Hunter
-                Black Clover
-                Demon Slayer
-                Solo Leveling
-                
-                </p>
+                <ol>
+                    <li>Naruto</li>
+                    <li>Vinland</li>
+                    <li>Hunter X Hunter</li>
+                    <li>Demon Slayer</li>
+                    <li>Black Clover</li>
+                    <li>Solo Leveling</li>
+                </ol>
+        </p>
             
                      
         </article>
@@ -130,11 +133,11 @@
                         </div>
                     </div>
                     <h2>Leave a comment</h2>
-                    <form id="comment-form" action="">
-                    <input id="comment-tex-field" type="text" placeholder="Write your comment here">
+                    <form method="get" id="comment-form" >
+                    <input id="comment-tex-field" type="text" name="userComment" placeholder="Write your comment here">
                     <div id="user-details">
-                      <input id="userName" type="text" placeholder="Your name comment here">
-                      <input id="userEmail" type="email" placeholder="Your email">
+                      <input id="userName" type="text" name="userName" placeholder="Your name comment here">
+                      <input id="userEmail" type="email" name="userName" placeholder="Your email">
                      </div>
                     <button id="sumbmit-btn" >Submit</button>
                     </form>
